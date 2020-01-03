@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: repeat (5, 20%);
+    grid-gap: 10px;
+    background-color: rgb(205, 243, 33);
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(78, 113, 228, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #red {
+    color: red;
+    background: url(/img/02bala-privacy-square640.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100px 50px;
+  }
